@@ -1,0 +1,21 @@
+.footer {
+  padding: 2.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: $white;
+
+  p {
+    display: inline-block;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  @include mq($smallScreen) {
+    padding: 2.5rem 4rem;
+    text-align: left;
+    
+    p {
+      max-width: 100%;
+    }
+  }
+}
