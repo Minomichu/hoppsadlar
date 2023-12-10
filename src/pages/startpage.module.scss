@@ -1,0 +1,27 @@
+.saddleTable {
+
+  thead tr th {
+    width: 15rem;
+    padding: 0.2rem 0.4rem 1rem 0.4rem;
+    font-weight: 500;
+    text-align: left;
+
+    &:last-of-type {
+      width: 4rem;
+    }
+  }
+
+  tbody tr {
+    td {
+    padding: 0.2rem 0.4rem;
+    }
+    .firstChoice {
+      background: #CCD1E4;
+      background: #D6E0F0;
+    }
+    .tableDelimiter {
+      height: 2rem;
+      border: none;
+    }
+  }
+}
