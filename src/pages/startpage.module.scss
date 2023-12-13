@@ -1,27 +1,34 @@
-.saddleTable {
+.startpageContainer {
+  max-width: $pageWidth;
 
-  thead tr th {
-    width: 15rem;
-    padding: 0.2rem 0.4rem 1rem 0.4rem;
-    font-weight: 500;
-    text-align: left;
+  .saddleTable {
+    margin: 3rem auto 2.5rem auto;
 
-    &:last-of-type {
-      width: 4rem;
+    thead tr th {
+      width: 15rem;
+      padding: 0.2rem 0.4rem 1rem 0.4rem;
+      font-weight: 500;
+      text-align: left;
+    }
+  
+    tbody {
+      tr {
+        td {
+          padding: 0.2rem 0.4rem;
+        }
+      }
+      .firstChoice {
+        background: #D6E0F0;
+      }
+      .smallerText {
+        font-size: 1.5rem;
+      }
     }
   }
-
-  tbody tr {
-    td {
-    padding: 0.2rem 0.4rem;
-    }
-    .firstChoice {
-      background: #CCD1E4;
-      background: #D6E0F0;
-    }
-    .tableDelimiter {
-      height: 2rem;
-      border: none;
-    }
+  
+  .horseEmoji {
+    margin: -1rem 0 0 0;
+    font-size: 6rem;
+    text-align: center;
   }
 }

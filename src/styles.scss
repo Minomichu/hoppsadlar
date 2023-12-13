@@ -60,7 +60,7 @@ a {
 
 ul {
   list-style-type: disc;
-  margin: 1.5rem 0 2rem 3rem;
+  margin: 1rem 0 2rem 3rem;
 }
 
 li {
@@ -116,19 +116,15 @@ h3,
 h4,
 h5,
 h6 {
-  //font-family: $menuFont;
   font-size: 2.4rem;
-  //color: $primaryColor;
+  color: $primaryColor;
 }
 
 h1 {
   margin: 1rem 0 1.5rem 0;
-  font-size: 3.4rem;
+  font-size: 2rem;
+  font-weight: 500;
   text-align: center;
-
-  @include mq(360px) {
-    font-size: 2.5rem;
-  }
 }
 
 h2 {
@@ -208,7 +204,7 @@ footer {
 }
 
 .smallDelimiter {
-  height: 1.5rem;
+  height: 0.8rem;
 }
 
 .delimiter {
@@ -217,6 +213,13 @@ footer {
 
 .bigDelimiter {
   height: 5rem;
+}
+
+.thinLine {
+  height: 1px;
+  width: 12rem;
+  margin: 2rem auto;
+  background-color: $secondaryColor;
 }
 
 input,
@@ -257,6 +260,23 @@ input[type=number] {
 
 .hidden {
   display: none;
+}
+
+.infoText {
+  font-size: 1.6rem;
+}
+
+.switchPageLinkContainer {
+  margin-top: -1.5rem;
+  text-align: right;
+  margin-bottom: 2rem;
+
+  .switchPageLink {
+    padding: 0.3rem 0.5rem;
+    font-size: 1.4rem;
+    border: 1px solid $primaryColor;
+    border-radius: 0.4rem;
+  }
 }
 
 .clearFloat {
