@@ -1,0 +1,11 @@
+.saddleDescriptionsContainer {
+  max-width: $pageWidth;
+
+  .header {
+    margin-top: 3rem;
+    margin-bottom: -0.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: $primaryColor;
+  }
+}

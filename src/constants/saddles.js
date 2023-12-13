@@ -1,223 +1,110 @@
-const STRINGS = [
+const EQUIPMENT = [
   {
     horse: 'Alonso',
-    saddles: [
-      { 
-        saddle: 'Hopp 4?', 
-        girth: '?' 
-      },
-      { 
-        saddle: 'Hopp 5', 
-        girth: '?'
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Hopp 4', 'Hopp 5'],
+    girthLength: { name: 'Sadelgjord', cm: '135' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Dorcas',
-    saddles: [
-      { 
-        saddle: 'Egen', 
-        girth: '-' 
-      },
-      { 
-        saddle: '', 
-        girth: '' 
-      },
-      { 
-        saddle: '', 
-        girth: '' 
-      },
-    ],
+    saddles: ['Egen'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Graffity',
-    saddles: [
-      { 
-        saddle: 'Hopp 3', 
-        girth: '?' 
-      },
-      { 
-        saddle: 'Centanos', 
-        girth: '-'
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Hopp 3', 'Centanos'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Harry',
-    saddles: [
-      { 
-        saddle: 'Hopp 1', 
-        girth: '?' 
-      },
-      { 
-        saddle: 'Kemas', 
-        girth: '-'
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Hopp 1', 'Kemas'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Harusa',
-    saddles: [
-      { 
-        saddle: 'Hopp 3', 
-        girth: '-' 
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Hopp 3'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Ideaal',
-    saddles: [
-      { 
-        saddle: 'Hopp 7', 
-        girth: '?' 
-      },
-      { 
-        saddle: 'Dorcas', 
-        girth: '-'
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Hopp 7', 'Dorcas'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Janne',
-    saddles: [
-      { 
-        saddle: 'Hopp 2', 
-        girth: '?' 
-      },
-      { 
-        saddle: 'Hopp 6', 
-        girth: '?'
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Hopp 2', 'Hopp 6'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Kema',
-    saddles: [
-      { 
-        saddle: 'Egen +martingal', 
-        girth: '' 
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Egen'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: 'Övrigt', equipment: ['martingal'] }
+    ]
   },
   {
     horse: 'Lana',
-    saddles: [
-      { 
-        saddle: 'Hopp 6', 
-        girth: '?' 
-      },
-      { 
-        saddle: 'Hopp 7', 
-        girth: '?'
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Hopp 6', 'Hopp 7'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Lulu',
-    saddles: [
-      { 
-        saddle: 'Kabalas', 
-        girth: '-' 
-      },
-      { 
-        saddle: 'Hopp 5', 
-        girth: '110' 
-      },
-    ],
+    saddles: ['Kabalas', 'Hopp 5'],
+    girthLength: { name: 'Sadelgjord', cm: '110' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Unic',
-    saddles: [
-      { 
-        saddle: 'Obis', 
-        girth: '-' 
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Obis'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   {
     horse: 'Wendy',
-    saddles: [
-      { 
-        saddle: 'Egen', 
-        girth: '-' 
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: ['Egen'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   /*
   {
     horse: '',
-    saddles: [
-      { 
-        saddle: '', 
-        girth: '' 
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-      { 
-        saddle: '', 
-        girth: ''
-      },
-    ],
+    saddles: [''],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
   },
   */
 ]
 
-export default STRINGS;
+export default EQUIPMENT
