@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import EQUIPMENTQ from '@/constants/saddles'
+import EQUIPMENT from '@/constants/saddles'
 import Layout from '@/components/Layout/Layout'
 import styles from './startpage.module.scss'
 
@@ -20,7 +20,7 @@ export default function Home() {
             </tr>
           </thead>
           <tbody>
-            {EQUIPMENTQ.map((horse, horseIndex) => (
+            {EQUIPMENT.map((horse, horseIndex) => (
               <>
                 {horse.saddles.map((saddle, index) => (
                   <tr key={`${horse.horse}-saddle-${index}`} className={index === 0 ? styles.firstChoice : ''}>

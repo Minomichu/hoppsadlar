@@ -1,4 +1,4 @@
-const EQUIPMENTQ = [
+const EQUIPMENT = [
   {
     horse: 'Alonso',
     saddles: ['Hopp 4', 'Hopp 5'],
@@ -107,4 +107,4 @@ const EQUIPMENTQ = [
   */
 ]
 
-export default EQUIPMENTQ
+export default EQUIPMENT
