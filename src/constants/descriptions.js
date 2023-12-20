@@ -13,7 +13,7 @@ const DESCRIPTIONS = [
   },
   {
     name: 'Hopp 4',
-    description: 'Brun med vitt',
+    description: 'Brun med vitt, Meredith',
   },
   {
     name: 'Hopp 5',
@@ -22,10 +22,6 @@ const DESCRIPTIONS = [
   {
     name: 'Hopp 6',
     description: 'Hammarström',
-  },
-  {
-    name: 'Hopp 7',
-    description: 'Meredith',
   },
 ]
 
