@@ -1,7 +1,7 @@
 const DESCRIPTIONS = [
   {
     name: 'Hopp 1',
-    description: 'Brun med grön plupp',
+    description: 'Brun med grön plupp + lite större klisterrester efter den förra namnlappen',
   },
   {
     name: 'Hopp 2',
@@ -9,7 +9,7 @@ const DESCRIPTIONS = [
   },
   {
     name: 'Hopp 3',
-    description: 'Grön plupp med litet skav',
+    description: 'Grön plupp + svaga klisterrester från den förra namnlappen',
   },
   {
     name: 'Hopp 4',
@@ -20,8 +20,8 @@ const DESCRIPTIONS = [
     description: 'Brun med svanskappa-flärp',
   },
   {
-    name: 'Hopp 6',
-    description: 'Hammarström',
+    name: 'Hammarström',
+    description: 'Står Hammarström på monterad namnbricka',
   },
 ]
 
