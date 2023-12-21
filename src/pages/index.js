@@ -12,6 +12,10 @@ export default function Home() {
           <Link href="sadel-beskrivningar" className='switchPageLink'>Sadelbeskrivningar</Link>
         </div>
         <p className={styles.horseEmoji}>&#128014;</p>
+        <p className={styles.underConstruction}><span>
+          Sidan är under uppbyggnad, när den här rutan är bortplockad 
+          så är listan redo att användas &#128578;
+          </span></p>
         <table className={styles.saddleTable}>
           <thead>
             <tr>
