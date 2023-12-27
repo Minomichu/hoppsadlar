@@ -8,6 +8,14 @@ const EQUIPMENT = [
     ]
   },
   {
+    horse: 'Centano',
+    saddles: ['Egen'],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
+  },
+  {
     horse: 'Dorcas',
     saddles: ['Egen'],
     girthLength: { name: '', cm: '' },
@@ -25,7 +33,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Harry',
-    saddles: ['Hopp 1', 'Kemas'],
+    saddles: ['Hopp 3?', 'Hopp 1?', 'Kemas'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -81,7 +89,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Unic',
-    saddles: ['Obis'],
+    saddles: ['?'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
