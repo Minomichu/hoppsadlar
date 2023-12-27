@@ -266,6 +266,15 @@ input[type=number] {
   font-size: 1.6rem;
 }
 
+.attention {
+  margin-top: 2rem;
+  padding:0.8rem 1.2rem;
+  font-size: 1.6rem;
+  background-color: #FFF0F7;
+  border: 3px solid hotpink;
+  border-radius: 0.7rem;
+}
+
 .switchPageLinkContainer {
   margin-top: -1.5rem;
   text-align: right;

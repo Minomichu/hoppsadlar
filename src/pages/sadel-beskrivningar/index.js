@@ -17,6 +17,12 @@ const SaddleDescriptions = () => {
           den en ny &#128578;
         </p>
 
+        <p className='attention'>
+          OBS. Hittar inte Hopp 1 + Hopp 2 för att namnmärka dom. Vet någon om det kan vara så att 
+          alla/några av Hopp 1-2-3 egentligen är samma sadel?<br/>
+          Om det ska finnas en av varje, vill någon berätta var 1+2 är/ge ännu tydligare beskrivningar? 🙏
+        </p>
+
         {DESCRIPTIONS?.map(description => (
           <div key={description.name}>
             <p className={styles.header}>{description.name}</p>
