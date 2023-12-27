@@ -1,7 +1,7 @@
 const DESCRIPTIONS = [
   {
     name: 'Hopp 1',
-    description: 'Brun med grön plupp + lite större klisterrester efter den förra namnlappen. Möjligt att Hopp 1 och Hopp 3 är samma? Under utredning 🧐',
+    description: 'Brun med grön plupp + lite större klisterrester efter den förra namnlappen.',
   },
   {
     name: 'Hopp 2',
