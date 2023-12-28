@@ -89,7 +89,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Unic',
-    saddles: ['?'],
+    saddles: ['Micros'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
