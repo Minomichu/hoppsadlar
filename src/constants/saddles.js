@@ -41,7 +41,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Harusa',
-    saddles: ['Hopp 3', 'Wendys'],
+    saddles: ['Hopp 6', 'Hopp 3'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -97,7 +97,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Wendy',
-    saddles: ['Egen'],
+    saddles: ['Hopp 4?'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }

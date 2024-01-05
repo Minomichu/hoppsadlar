@@ -20,6 +20,10 @@ const DESCRIPTIONS = [
     description: 'Brun med svanskappa-flärp',
   },
   {
+    name: 'Hopp 6',
+    description: 'Brun med gröna pluppar och ganska stort skav från förra namnlappen',
+  },
+  {
     name: 'Hammarström',
     description: 'Står Hammarström på monterad namnbricka',
   },

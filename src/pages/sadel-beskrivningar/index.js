@@ -19,7 +19,7 @@ const SaddleDescriptions = () => {
 
         <p className='attention'>
           OBS. Hittar inte Hopp 1 + Hopp 2 för att namnmärka dom. Vet någon om det kan vara så att 
-          alla/några av Hopp 1-2-3 egentligen är samma sadel?<br/>
+          några av Hopp 1-2-3-6 egentligen är samma sadel?<br/>
           Om det ska finnas en av varje, vill någon berätta var 1+2 är/ge ännu tydligare beskrivningar? 🙏
         </p>
 
