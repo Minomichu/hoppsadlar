@@ -5,7 +5,7 @@ const DESCRIPTIONS = [
   },
   {
     name: 'Hopp 2',
-    description: 'Grön plupp med liten klisterlapp',
+    description: '-',
   },
   {
     name: 'Hopp 3',

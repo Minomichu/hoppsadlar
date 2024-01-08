@@ -25,7 +25,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Graffity',
-    saddles: ['Micros', 'Hopp 3', 'Centanos'],
+    saddles: ['Hammarström', 'Hopp 3', 'Centanos'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -33,7 +33,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Harry',
-    saddles: ['Hopp 3?', 'Hopp 1?', 'Kemas'],
+    saddles: ['Hopp 3', 'Hopp 1?', 'Kemas'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -57,7 +57,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Janne',
-    saddles: ['Hopp 2', 'Hammarström'],
+    saddles: ['Hopp 3', 'Hammarström'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -89,7 +89,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Unic',
-    saddles: ['Micros'],
+    saddles: ['Hammarström'],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
