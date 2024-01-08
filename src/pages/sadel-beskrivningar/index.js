@@ -9,6 +9,8 @@ const SaddleDescriptions = () => {
       <div className={styles.saddleDescriptionsContainer}>
         <div className='switchPageLinkContainer'>
           <Link href="/" className='switchPageLink'>Tillbaka till hästar</Link>
+          <br/>
+          <Link href="/avstand" className='switchPageLink'>Avstånd</Link>
         </div>
         <h1>Sadelbeskrivningar</h1>
         <p className='infoText'>

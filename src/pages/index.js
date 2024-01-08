@@ -10,6 +10,8 @@ export default function Home() {
       <div className={styles.startpageContainer}>
         <div className='switchPageLinkContainer'>
           <Link href="sadel-beskrivningar" className='switchPageLink'>Sadelbeskrivningar</Link>
+          <br/>
+          <Link href="avstand" className='switchPageLink'>Avstånd</Link>
         </div>
         <p className={styles.horseEmoji}>&#128014;</p>
         <p className={styles.underConstruction}><span>
