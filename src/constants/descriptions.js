@@ -1,11 +1,11 @@
 const DESCRIPTIONS = [
   {
     name: 'Hopp 1',
-    description: 'Brun med grön plupp + lite större klisterrester efter den förra namnlappen.',
+    description: 'Centanos - beskrivning kommer',
   },
   {
     name: 'Hopp 2',
-    description: '-',
+    description: 'Dorcas - beskrivning kommer',
   },
   {
     name: 'Hopp 3',
@@ -22,6 +22,14 @@ const DESCRIPTIONS = [
   {
     name: 'Hopp 6',
     description: 'Brun med gröna pluppar och ganska stort skav från förra namnlappen',
+  },
+  {
+    name: 'Hopp 7',
+    description: 'Kemas - beskrivning kommer',
+  },
+  {
+    name: 'Hopp 8',
+    description: 'Kabalas - beskrivning kommer',
   },
   {
     name: 'Hammarström',

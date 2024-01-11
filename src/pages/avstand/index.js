@@ -12,6 +12,7 @@ const Distance = () => {
           <Link href="/sadel-beskrivningar" className='switchPageLink'>Sadelbeskrivningar</Link>
         </div>
         <h1>Avstånd i meter: Häst</h1>
+        <p className={styles.prioritizing}>Om avstånd står utskrivna på banskissen följs dom istället.</p>
         <table className={styles.distanceTable}>
           <tbody>
             <tr>

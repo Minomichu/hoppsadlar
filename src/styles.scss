@@ -267,7 +267,8 @@ input[type=number] {
 }
 
 .attention {
-  margin-top: 2rem;
+  max-width: 30rem;
+  margin: 2rem auto;
   padding:0.8rem 1.2rem;
   font-size: 1.6rem;
   background-color: #FFF0F7;
