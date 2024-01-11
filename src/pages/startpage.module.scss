@@ -6,25 +6,57 @@
     padding: 2rem;
     font-weight: 500;
     color: $white;
-    background: hotpink;
+    background: skyblue;
     border-radius: 0.8rem;
     text-align: center;
+  }
+
+  .miniTable {
+    width: 20rem;
+    
+    thead tr th, tbody tr td {
+      padding: 0.2rem 0.7rem;
+    }
+    thead {
+      font-weight: 400;
+      text-align: left;
+    }
+    tbody tr:nth-child(odd) {
+      background: #ffe1f0;
+    }
+    &:first-of-type {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .shortningExplanations {
+    width: 32rem;
+    margin: 0 auto 4rem auto;
   }
 
   .saddleTable {
     margin: 3rem auto 2.5rem auto;
 
     thead tr th {
-      width: 15rem;
+      width: 12rem;
       padding: 0.2rem 0.4rem 1rem 0.4rem;
       font-weight: 500;
       text-align: left;
+    }
+
+    .locationHeader {
+      width: 6rem;
+      color: #7F848E;
     }
   
     tbody {
       tr {
         td {
           padding: 0.2rem 0.4rem;
+        }
+        .locationColumn {
+          font-size: 1.4rem;
+          color: #37474F;
         }
       }
       .firstChoice {
@@ -33,6 +65,11 @@
       .smallerText {
         font-size: 1.5rem;
       }
+
+      .textRow {
+        font-size: 1.2rem;
+        color: #323232;
+      }
     }
   }
   
@@ -40,5 +77,17 @@
     margin: -1rem 0 0 0;
     font-size: 6rem;
     text-align: center;
+  }
+
+  .girthLengthInfo {
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center;
+  }
+
+  .locationInfo {
+    font-size: 1.4rem;
   }
 }

@@ -14,14 +14,7 @@ const SaddleDescriptions = () => {
         </div>
         <h1>Sadelbeskrivningar</h1>
         <p className='infoText'>
-          Om en siffermärkt sadel tappat sin namnlapp kan du se hur den ser ut här istället.<br/>
-          Skicka gärna ett sms till nummer 0736533933 med vilken sadel som tappat sin lapp så får 
-          den en ny &#128578;
-        </p>
-
-        <p className='attention'>
-          OBS. Hittar inte Hopp 1 för att namnmärka den - vet någon om den kanske är samma som Hopp 3 eller 6?<br/>
-          Om Hopp1 existerar, vill någon berätta var den är eller ge tydligare beskrivning på den? 🙏
+          Om en hoppsadel tappat sin märkning, skicka ett sms till 0736533933 så den får en ny 👌
         </p>
 
         {DESCRIPTIONS?.map(description => (
