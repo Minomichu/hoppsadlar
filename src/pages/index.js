@@ -36,11 +36,11 @@ export default function Home() {
               </tr>
               <tr>
                 <td>Graffity</td>
-                <td>Hopp 3 & 1</td>
+                <td>Hopp 3<br/>Kieffer</td>
               </tr>
               <tr>
                 <td>Harry</td>
-                <td>Hopp 7</td>
+                <td>Hopp 2</td>
               </tr>
             </tbody>
           </table>
@@ -51,7 +51,7 @@ export default function Home() {
             <tbody>
               <tr>
                 <td>Ideaal</td>
-                <td>Hopp 2</td>
+                <td>Hopp 1</td>
               </tr>
               <tr>
                 <td>Lana</td>

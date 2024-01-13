@@ -1,11 +1,11 @@
 const DESCRIPTIONS = [
   {
     name: 'Hopp 1',
-    description: 'Centanos - beskrivning kommer',
+    description: 'Dorcas - beskrivning kommer',
   },
   {
     name: 'Hopp 2',
-    description: 'Dorcas - beskrivning kommer',
+    description: 'Kemas - beskrivning kommer',
   },
   {
     name: 'Hopp 3',
@@ -25,15 +25,15 @@ const DESCRIPTIONS = [
   },
   {
     name: 'Hopp 7',
-    description: 'Kemas - beskrivning kommer',
-  },
-  {
-    name: 'Hopp 8',
     description: 'Kabalas - beskrivning kommer',
   },
   {
     name: 'Hammarström',
     description: 'Står Hammarström på monterad namnbricka',
+  },
+  {
+    name: 'Kieffer',
+    description: 'Står Kieffer på monterad namnbricka',
   },
 ]
 
