@@ -1,12 +1,12 @@
-const hopp1 = { saddle: 'Hopp 1', location: 'Centano' }
-const hopp2 = { saddle: 'Hopp 2', location: 'Dorcas' }
+const hopp1 = { saddle: 'Hopp 1', location: 'Dorcas' }
+const hopp2 = { saddle: 'Hopp 2', location: 'Kema' }
 const hopp3 = { saddle: 'Hopp 3', location: 'HK' }
 const hopp4 = { saddle: 'Hopp 4', location: 'Wendy' }
 const hopp5 = { saddle: 'Hopp 5', location: 'HK' }
 const hopp6 = { saddle: 'Hopp 6', location: 'HK' }
-const hopp7 = { saddle: 'Hopp 7', location: 'Kema' }
-const hopp8 = { saddle: 'Hopp 8', location: 'Kabala' }
+const hopp7 = { saddle: 'Hopp 7', location: 'Kabala' }
 const HS = { saddle: 'HS', location: 'Micro' }
+const kieffer = { saddle: 'Kieffer', location: 'Centano' }
 const confirmSaddle = " har inte hoppat på ett tag. När tillbaka: dubbelkolla att utrustningen fortf. stämmer och passar."
 
 const EQUIPMENT = [
@@ -20,7 +20,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Centano',
-    saddles: [hopp1],
+    saddles: [kieffer],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -28,7 +28,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Dorcas',
-    saddles: [hopp2],
+    saddles: [hopp1],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -36,7 +36,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Graffity',
-    saddles: [HS, hopp3, hopp1],
+    saddles: [HS, hopp3, kieffer],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -44,7 +44,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Harry',
-    saddles: [hopp3, hopp7],
+    saddles: [hopp3, hopp2],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -60,7 +60,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Ideaal',
-    saddles: [hopp4, hopp2],
+    saddles: [hopp4, hopp1],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -77,7 +77,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Kema',
-    saddles: [hopp7],
+    saddles: [hopp2],
     girthLength: { name: '', cm: '' },
     other: [
       { name: 'Övrigt', equipment: ['martingal'] }
@@ -92,7 +92,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Lulu',
-    saddles: [hopp8, hopp5],
+    saddles: [hopp7, hopp5],
     girthLength: { name: 'Sadelgjord', cm: '110' },
     other: [
       { name: '', equipment: [''] }
