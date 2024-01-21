@@ -5,7 +5,7 @@ const DESCRIPTIONS = [
   },
   {
     name: 'Hopp 2',
-    description: 'Kemas - beskrivning kommer',
+    description: 'Ingen sadel tilldelad',
   },
   {
     name: 'Hopp 3',

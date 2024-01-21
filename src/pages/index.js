@@ -14,20 +14,10 @@ export default function Home() {
           <Link href="avstand" className='switchPageLink'>Avstånd</Link>
         </div>
         <p className={styles.horseEmoji}>&#128014;</p>
-        <p className={styles.underConstruction}><span>
-          Sidan är under uppbyggnad, när den här rutan är bortplockad 
-          så är listan redo att användas &#128578;
-        </span></p>
-        <div className={styles.shortningExplanations}>
-          <p>
-            HK = HoppKammaren<br/>
-            HS = Hammarström
-          </p>
-        </div>
         <div className='attention'>
           <table className={styles.miniTable}>
             <thead>
-              <tr><th colSpan={2}>Största frågetecknen</th></tr>
+              <tr><th colSpan={2}>Frågetecken/obekräftade:</th></tr>
             </thead>
             <tbody>
               <tr>
@@ -39,26 +29,18 @@ export default function Home() {
                 <td>Hopp 3<br/>Kieffer</td>
               </tr>
               <tr>
-                <td>Harry</td>
-                <td>Hopp 2</td>
-              </tr>
-            </tbody>
-          </table>
-          <table className={styles.miniTable}>
-            <thead>
-              <tr><th colSpan={2}>Mindre frågetecken</th></tr>
-            </thead>
-            <tbody>
-              <tr>
                 <td>Ideaal</td>
                 <td>Hopp 1</td>
               </tr>
-              <tr>
-                <td>Lana</td>
-                <td>Hopp 4</td>
-              </tr>
             </tbody>
           </table>
+        </div>
+
+        <div className={styles.shortningExplanations}>
+          <p>
+            HK = HoppKammaren<br/>
+            HS = Hammarström
+          </p>
         </div>
           
         <table className={styles.saddleTable}>
@@ -118,7 +100,7 @@ export default function Home() {
         </p>
         <div className='thinLine'></div>
         <p className='infoText'>
-          Skicka sms till 0736533933 med ändringar + vilken ridlärare som sa det, så att listan alltid är uppdaterad 🙂
+          Skicka gärna sms till 0736533933 med ändringar + vilken ridlärare som sa det, så att listan alltid är uppdaterad 🙂
         </p>
       </div>
     </Layout>

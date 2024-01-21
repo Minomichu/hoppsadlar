@@ -1,5 +1,5 @@
 const hopp1 = { saddle: 'Hopp 1', location: 'Dorcas' }
-const hopp2 = { saddle: 'Hopp 2', location: 'Kema' }
+const hopp2 = { saddle: '-', location: '-' }
 const hopp3 = { saddle: 'Hopp 3', location: 'HK' }
 const hopp4 = { saddle: 'Hopp 4', location: 'Wendy' }
 const hopp5 = { saddle: 'Hopp 5', location: 'HK' }
@@ -44,7 +44,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Harry',
-    saddles: [hopp3, hopp2],
+    saddles: [hopp3],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -81,14 +81,17 @@ const EQUIPMENT = [
     girthLength: { name: '', cm: '' },
     other: [
       { name: 'Övrigt', equipment: ['martingal'] }
-    ]  },
+    ],
+    textRow: 'Kema' + confirmSaddle
+  },
   {
     horse: 'Lana',
-    saddles: [HS, hopp4],
+    saddles: [HS],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
-    ]
+    ],
+    textRow: 'Lana' + confirmSaddle
   },
   {
     horse: 'Lulu',
