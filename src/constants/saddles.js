@@ -7,12 +7,13 @@ const hopp6 = { saddle: 'Hopp 6', location: 'HK' }
 const hopp7 = { saddle: 'Hopp 7', location: 'Kabala' }
 const HS = { saddle: 'HS', location: 'Micro' }
 const kieffer = { saddle: 'Kieffer', location: 'Centano' }
+const egen = { saddle: 'Egen', location: ''}  // Egen sadel som inte klassas som hoppsadel
 const confirmSaddle = " har inte hoppat på ett tag. När tillbaka: dubbelkolla att utrustningen fortf. stämmer och passar."
 
 const EQUIPMENT = [
   {
     horse: 'Alonso',
-    saddles: [hopp4, hopp5],
+    saddles: [hopp4],
     girthLength: { name: 'Sadelgjord', cm: '135' },
     other: [
       { name: '', equipment: [''] }
@@ -29,6 +30,14 @@ const EQUIPMENT = [
   {
     horse: 'Dorcas',
     saddles: [hopp1],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
+  },
+  {
+    horse: 'Gainsley',
+    saddles: [egen],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -77,12 +86,11 @@ const EQUIPMENT = [
   },
   {
     horse: 'Kema',
-    saddles: [hopp2],
+    saddles: [egen],
     girthLength: { name: '', cm: '' },
     other: [
       { name: 'Övrigt', equipment: ['martingal'] }
     ],
-    textRow: 'Kema' + confirmSaddle
   },
   {
     horse: 'Lana',

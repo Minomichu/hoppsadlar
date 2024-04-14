@@ -21,10 +21,6 @@ export default function Home() {
             </thead>
             <tbody>
               <tr>
-                <td>Alonso</td>
-                <td>Hopp 5</td>
-              </tr>
-              <tr>
                 <td>Graffity</td>
                 <td>Hopp 3<br/>Kieffer</td>
               </tr>
@@ -97,6 +93,16 @@ export default function Home() {
           <span className={styles.locationInfo}>
             Platsen är där du oftast hittar sadeln, men platsen kan ändras i och med att hästarna ibland byter sin lektionssadel.
           </span>
+        </p>
+        <div className='thinLine'></div>
+        <ul className='infoText'>
+          <li>har hästen en pläd i vanliga fall ska den bytas ut mot en padd vid hoppning</li>
+          <li>om hästen inte använder sin ordinarie sadel ska den alltid ha en padd</li>
+          <li>byt alltid ut mjuka benskydd (ex: Harusa) mot hårda hoppskydd</li>
+        </ul>
+        <div className='thinLine'></div>
+        <p className='infoText'>
+          Alonso får inte gå med hopp5, den är utprovad och passar inte honom.
         </p>
         <div className='thinLine'></div>
         <p className='infoText'>
