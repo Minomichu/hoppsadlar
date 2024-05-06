@@ -35,6 +35,10 @@ const DESCRIPTIONS = [
     name: 'Kieffer',
     description: 'Står Kieffer på monterad namnbricka',
   },
+  {
+    name: 'Kieffer 2',
+    description: 'Den Kieffer-sadel som Joop har just nu, bättre beskrivning kommer',
+  },
 ]
 
 export default DESCRIPTIONS
