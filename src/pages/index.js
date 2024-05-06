@@ -21,10 +21,6 @@ export default function Home() {
             </thead>
             <tbody>
               <tr>
-                <td>Graffity</td>
-                <td>Hopp 3<br/>Kieffer</td>
-              </tr>
-              <tr>
                 <td>Ideaal</td>
                 <td>Hopp 1</td>
               </tr>
