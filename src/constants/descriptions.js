@@ -5,7 +5,7 @@ const DESCRIPTIONS = [
   },
   {
     name: 'Hopp 2',
-    description: 'Ingen sadel tilldelad',
+    description: 'Kieffersadel med ganska högt bakvalv och ett runt, hårt Kieffer-märke vid framvalvet',
   },
   {
     name: 'Hopp 3',
@@ -34,10 +34,6 @@ const DESCRIPTIONS = [
   {
     name: 'Kieffer',
     description: 'Står Kieffer på monterad namnbricka',
-  },
-  {
-    name: 'Kieffer 2',
-    description: 'Den Kieffer-sadel som Joop har just nu, bättre beskrivning kommer',
   },
 ]
 

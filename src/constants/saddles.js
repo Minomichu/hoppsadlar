@@ -1,11 +1,10 @@
 const hopp1 = { saddle: 'Hopp 1', location: 'Dorcas' }
-const hopp2 = { saddle: '-', location: '-' }
+const hopp2 = { saddle: 'Hopp 2', location: 'Joop' }
 const hopp3 = { saddle: 'Hopp 3', location: 'HK' }
 const hopp4 = { saddle: 'Hopp 4', location: 'Wendy' }
 const hopp5 = { saddle: 'Hopp 5', location: 'HK' }
 const hopp6 = { saddle: 'Hopp 6', location: 'HK' }
 const hopp7 = { saddle: 'Hopp 7', location: 'Kabala' }
-const kieffer2 = { saddle: 'Kieffer 2', location: 'Joop'}   // ### Byt ut till Hopp nr
 const HS = { saddle: 'HS', location: 'HK' }
 const kieffer = { saddle: 'Kieffer', location: 'Centano' }
 const egen = { saddle: 'Egen', location: ''}  // Egen sadel som inte klassas som hoppsadel
@@ -75,7 +74,6 @@ const EQUIPMENT = [
     other: [
       { name: '', equipment: [''] }
     ],
-    textRow: 'Janne' + confirmSaddle
   },
   {
     horse: 'Kema',
@@ -104,7 +102,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Unic',
-    saddles: [kieffer2],
+    saddles: [hopp2],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
