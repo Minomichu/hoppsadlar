@@ -90,7 +90,6 @@ const EQUIPMENT = [
     other: [
       { name: '', equipment: [''] }
     ],
-    textRow: 'Lana' + confirmSaddle
   },
   {
     horse: 'Lulu',
@@ -99,6 +98,14 @@ const EQUIPMENT = [
     other: [
       { name: '', equipment: [''] }
     ]
+  },
+  {
+    horse: 'Meije',
+    saddles: [egen],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ],
   },
   {
     horse: 'Unic',
