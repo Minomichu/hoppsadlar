@@ -108,6 +108,14 @@ const EQUIPMENT = [
     ],
   },
   {
+    horse: 'Roy',
+    saddles: [HS],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ],
+  },
+  {
     horse: 'Unic',
     saddles: [hopp2],
     girthLength: { name: '', cm: '' },
