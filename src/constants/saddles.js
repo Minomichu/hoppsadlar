@@ -20,6 +20,14 @@ const EQUIPMENT = [
     ]
   },
   {
+    horse: 'Brad Pitt',
+    saddles: [HS],
+    girthLength: { name: '', cm: '' },
+    other: [
+      { name: '', equipment: [''] }
+    ]
+  },
+  {
     horse: 'Centano',
     saddles: [kieffer],
     girthLength: { name: '', cm: '' },
