@@ -1,9 +1,9 @@
 const hopp1 = { saddle: 'Hopp 1', location: 'HK' }
-const hopp2 = { saddle: 'Hopp 2', location: 'Joop' }
+const hopp2 = { saddle: 'Hopp 2', location: 'HK' }
 const hopp3 = { saddle: 'Hopp 3', location: 'Dorcas' }
-const hopp4 = { saddle: 'Hopp 4', location: 'Wendy' }
+const hopp4 = { saddle: 'Hopp 4', location: 'HK' }
 const hopp5 = { saddle: 'Hopp 5', location: 'HK' }
-const hopp6 = { saddle: 'Hopp 6', location: 'HK' }
+const hopp6 = { saddle: 'Hopp 6', location: 'Tesla' }
 const hopp7 = { saddle: 'Hopp 7', location: 'Kabala' }
 const HS = { saddle: 'HS', location: 'HK' }
 const kieffer = { saddle: 'Kieffer', location: 'Centano' }
