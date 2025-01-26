@@ -1,6 +1,6 @@
-const hopp1 = { saddle: 'Hopp 1', location: 'HK' }
+const hopp1 = { saddle: 'Hopp 1', location: 'Dorcas' }
 const hopp2 = { saddle: 'Hopp 2', location: 'HK' }
-const hopp3 = { saddle: 'Hopp 3', location: 'Dorcas' }
+const hopp3 = { saddle: 'Hopp 3', location: 'HK' }
 const hopp4 = { saddle: 'Hopp 4', location: 'HK' }
 const hopp5 = { saddle: 'Hopp 5', location: 'HK' }
 //const hopp6 = { saddle: 'Hopp 6', location: 'Tesla' }
