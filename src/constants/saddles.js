@@ -62,7 +62,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Harry',
-    saddles: [hopp3],
+    saddles: [hopp3, egen],
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
@@ -151,7 +151,7 @@ const EQUIPMENT = [
   {
     horse: 'Roy',
     saddles: [HS],
-    girthLength: { name: '', cm: '' },
+    girthLength: { name: 'Sadelgjord', cm: '120-125' },
     other: [
       { name: 'Övrigt', equipment: ['martingal'] }
     ],
