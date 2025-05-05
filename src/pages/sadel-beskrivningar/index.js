@@ -21,6 +21,9 @@ const SaddleDescriptions = () => {
           <div key={description.name}>
             <p className={styles.header}>{description.name}</p>
             <p>{description.description}</p>
+            {description.image && (
+              <img src={description.image} className={styles.saddleImage} alt="" />
+            )}
           </div>
         ))}
       </div>
