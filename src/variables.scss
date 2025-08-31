@@ -1,3 +1,5 @@
+@use "sass:list";
+
 // Variables
 $smallScreen: 700px;
 $notSupportedScreenSize: 315px;
@@ -47,19 +49,23 @@ $textColor: #1A1A1A;
 
 // Media Queries
 @mixin mq($mqValue...) {
-	@if length($mqValue) == 1 {
-		@media screen and (max-width: nth($mqValue, 1)) {
-			@content;
-		}
-	}
-	@if length($mqValue) == 2 {
-		@media screen and (min-width: nth($mqValue, 1)) and (max-width: nth($mqValue, 2)) {
-			@content;
-		}
-	}
-	@if length($mqValue) == 3 {
-		@media screen and (min-width: nth($mqValue, 3)) {
-			@content;
-		}
-	}
+  $digitsWithinMediaQuery: list.length($mqValue);
+
+  @if $digitsWithinMediaQuery == 1 {
+    @media (max-width: list.nth($mqValue, 1)) {
+      @content;
+    }
+  }
+
+  @else if $digitsWithinMediaQuery == 2 {
+    @media (min-width: list.nth($mqValue, 1)) and (max-width: list.nth($mqValue, 2)) {
+      @content;
+    }
+  }
+
+  @else if $digitsWithinMediaQuery == 3 {
+    @media (min-width: list.nth($mqValue, 3)) {
+      @content;
+    }
+  }
 }
