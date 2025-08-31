@@ -1,10 +1,11 @@
+const path = require('path')
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 
   sassOptions: {
-    // Variables needs to be here to be fetched first
-    prependData: `@import "src/variables.scss";`,
+    includePaths: [path.join(__dirname, 'src')],
+    additionalData: `@use "variables" as *;`
   },
 
   i18n: {
