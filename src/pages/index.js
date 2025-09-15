@@ -17,12 +17,14 @@ export default function Home() {
         <div className='attention'>
           <table className={styles.miniTable}>
             <thead>
-              <tr><th colSpan={2}>Frågetecken/obekräftade:</th></tr>
+              <tr><th colSpan={2}>ALONSO</th></tr>
             </thead>
             <tbody>
               <tr>
-                <td>Ideaal</td>
-                <td>Hopp 1</td>
+                <td>*Använd INTE padd till Alonsos nya sadel - den behöver forma sig 🙂</td>
+              </tr>
+              <tr>
+                <td style={{ fontSize: '12px'}}>2025-09-15</td>
               </tr>
             </tbody>
           </table>
@@ -93,7 +95,7 @@ export default function Home() {
         <div className='thinLine'></div>
         <ul className='infoText'>
           <li>har hästen en pläd i vanliga fall ska den bytas ut mot en padd vid hoppning</li>
-          <li>om hästen inte använder sin ordinarie sadel ska den alltid ha en padd</li>
+          <li>om hästen inte använder sin ordinarie sadel ska den alltid ha en padd - gäller EJ Alonsos nya sadel under invänjningen</li>
           <li>byt alltid ut mjuka benskydd (ex: Harusa) mot hårda hoppskydd</li>
         </ul>
         <div className='thinLine'></div>
