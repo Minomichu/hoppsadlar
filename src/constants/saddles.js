@@ -27,7 +27,8 @@ const EQUIPMENT = [
     girthLength: { name: '', cm: '' },
     other: [
       { name: '', equipment: [''] }
-    ]
+    ],
+    textRow: 'Brad' + confirmSaddle
   },
   {
     horse: 'Centano',
@@ -71,20 +72,11 @@ const EQUIPMENT = [
   },
   {
     horse: 'Harusa',
-    saddles: [hopp6, hopp3, hopp4],
+    saddles: [''],
     girthLength: { name: 'Sadelgjord', cm: '120' },
     other: [
       { name: '', equipment: [''] }
     ]
-  },
-  {
-    horse: 'Ideaal',
-    saddles: [hopp4, hopp1],
-    girthLength: { name: '', cm: '' },
-    other: [
-      { name: '', equipment: [''] }
-    ],
-    textRow: 'Ida' + confirmSaddle
   },
   {
     horse: 'Janne',
@@ -119,14 +111,6 @@ const EQUIPMENT = [
     ],
   },
   {
-    horse: 'Lana',
-    saddles: [HS],
-    girthLength: { name: '', cm: '' },
-    other: [
-      { name: '', equipment: [''] }
-    ],
-  },
-  {
     horse: 'Lulu',
     saddles: [hopp7, hopp5],
     girthLength: { name: 'Sadelgjord', cm: '110' },
@@ -141,6 +125,7 @@ const EQUIPMENT = [
     other: [
       { name: '', equipment: [''] }
     ],
+    textRow: 'Micro' + confirmSaddle
   },
   {
     horse: 'Meije',
@@ -168,10 +153,10 @@ const EQUIPMENT = [
   },
   {
     horse: 'Wendy',
-    saddles: [hopp4],
+    saddles: [egen, hopp4],
     girthLength: { name: '', cm: '' },
     other: [
-      { name: '', equipment: [''] }
+      { name: 'Övrigt', equipment: ['martingal'] }
     ]
   },
   /*
