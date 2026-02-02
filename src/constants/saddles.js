@@ -72,7 +72,7 @@ const EQUIPMENT = [
   },
   {
     horse: 'Harusa',
-    saddles: [''],
+    saddles: [egen],
     girthLength: { name: 'Sadelgjord', cm: '120' },
     other: [
       { name: '', equipment: [''] }

@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
 
   sassOptions: {
-    includePaths: [path.join(__dirname, 'src')],
+    loadPaths: [path.join(__dirname, 'src')],
     additionalData: `@use "variables" as *;`
   },
 
